@@ -1,0 +1,182 @@
+* { margin: 0; padding: 0;}
+
+@font-face {
+    font-family: "Bebas Neue";
+    src: url("/font/Bebas Neue.ttf");
+  }
+
+  @font-face {
+    font-family: "Garamond";
+    src: url("/font/Garamond.ttf");
+  }
+
+body::-webkit-scrollbar {
+    display: none;
+    }
+
+.up {
+    position: fixed;
+    right: 30px;
+    top: 685px;
+    border: none;
+    cursor: pointer; 
+    background: transparent; 
+}
+
+.header {
+    text-align: center;
+    background-color: #E5A26E;
+    height: 150px;
+}
+
+.header h1{
+    color: #fff;
+    padding-top: 20px;
+    word-spacing: 25px;
+    letter-spacing: 10px;
+    font-family: "Bebas Neue";
+    font-size: 65px;
+}
+
+.header div {
+    display: flex;
+    position: relative;
+}
+
+.header li {
+    list-style: none;
+    position:absolute; 
+}
+
+.header a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 35px;
+    font-family: "Garamond";
+}
+
+.main-img {
+    position:absolute; 
+    top: 180px; 
+    left: 725px;
+    height: 550px;
+    border-radius: 40px;
+}
+
+.white-box {
+    background-color: #fff;
+    width: 400px;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 250px;
+    border-radius: 50px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.white-box h2 {
+    margin-bottom: 15px;
+    font-family: "Bebas Neue";
+    font-size: 35px;
+    color: #484848;
+}
+
+.white-box h3 {
+    margin-bottom: 10px;
+    font-family: "Bebas Neue";
+    font-size: 23px;
+    color: #484848;
+}
+
+.white-box ol {
+    color: #484848;
+    font-family: "Garamond";
+    font-size: 20px;
+    margin-left: 180px; 
+    text-align: left;
+}
+
+.reason {
+    font-family: "Garamond";
+    font-size: 21px;
+    text-align: center;
+    color: #484848;
+}
+
+.description {
+    text-align: center;
+    padding-top: 30px;
+    word-spacing: 15px;
+    letter-spacing: 7px;
+    font-family: "Bebas Neue";
+    color: #484848;
+    font-size: 30px;
+    background-color: #E5A26E;
+    height: 1000px;
+}
+
+.white-box-description {
+    background-color: #fff;
+    text-align: center;
+    margin-left: 130px;
+    border-radius: 50px;
+    margin-top: 70px;
+    float: left;
+    height: 220px; 
+    width: 550px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.players h2 {
+    font-family: "Bebas Neue";
+    font-size: 50px;
+    color: #fff;
+    background-color: #E5A26E;
+    padding-top: 40px;
+    word-spacing: 25px;
+    letter-spacing: 10px;
+    text-align: center;
+    height: 100px;
+}
+
+.white-box-players {
+    background-color: #fff;
+    margin-left: 800px;
+    border-radius: 50px;
+    margin-top: 80px;
+    margin-bottom: 95px;
+    position: relative;
+    height: 460px; 
+    width: 550px;
+}
+
+.white-box-players p {
+    font-family: "Garamond";
+    font-size: 31px;
+    text-align: center;
+    color: #484848;
+    padding-top: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.players-img {
+    position:absolute;
+    top: 1055px;
+    left: 150px;
+}
+
+.players-img img {
+    border-radius: 50px;
+}
+
+span {
+    font-family: "Bebas Neue";
+    text-decoration-line: underline;
+}
+
+.links {
+    position: relative;
+    top: 250px;
+}
