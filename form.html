@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap-grid.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <title>Форма</title>
+
+    <script src="/js/bootstrap.min.js" defer></script>
+    <script src="/js/bootstrap.bundle.min.js" defer></script>
+</head>
+<body>
+
+    <div class="row">
+        <div class="col-sm-1 col-lg-2"></div>
+        <div class="col form white-box" style="margin: 25px;">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Ваш Email адрес</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Опишите где и когда была сыграна партия</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="formFile" class="form-label">Прикрепите фото вашей партии (по желанию)</label>
+                <input class="form-control" type="file" id="formFile">
+            </div>
+            <button type="submit" class="btn btn-primary btn-form">Отправить</button>       
+        </div>
+        <div class="col-sm-1 col-lg-2"></div>
+    </div>
+
+</body>
+</html>

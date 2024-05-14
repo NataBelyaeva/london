@@ -1,0 +1,197 @@
+
+@font-face {
+    font-family: "Bebas Neue";
+    src: url("/font/Bebas Neue.ttf");
+}
+
+@font-face {
+    font-family: "Garamond";
+    src: url("/font/Garamond.ttf");
+}
+
+body {
+    background-color: #f7f1ff;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+    }
+
+.up {
+    position: fixed;
+    bottom: 10px;
+    border: none;
+    cursor: pointer; 
+    background: transparent; 
+}
+
+.navbar {
+    padding-top: 0;
+}
+
+.navbar-nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    font-family: "Garamond";
+    padding: 0px;
+}
+
+.navbar-nav a:hover{
+    color: #484848;
+}
+
+h1{
+    color: #fff;
+    padding-top: 20px;
+    word-spacing: 25px;
+    letter-spacing: 10px;
+    font-family: "Bebas Neue";
+    font-size: 75px;
+}
+
+.white-box {
+    background-color: #fff;
+    border-radius: 50px;
+}
+
+.main-img {
+    height: 450px;
+    border-radius: 40px;
+}
+
+h2 {
+    padding-top: 15px;
+    font-family: "Bebas Neue";
+    font-size: 35px;
+    color: #484848;
+}
+
+
+h3 {
+    margin-bottom: 10px;
+    font-family: "Bebas Neue";
+    font-size: 23px;
+    color: #484848;
+}
+
+.white-box ol {
+    color: #484848;
+    font-family: "Garamond";
+    font-size: 20px;
+    text-align: center;
+}
+
+.reason {
+    font-family: "Garamond";
+    font-size: 21px;
+    text-align: center;
+    color: #484848;
+}
+
+.players h2 {
+    font-family: "Bebas Neue";
+    font-size: 55px;
+    color: #fff;
+    word-spacing: 25px;
+    letter-spacing: 10px;
+}
+
+.players img {
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+.text-players {
+    font-family: "Garamond";
+    font-size: 31px;
+    color: #484848;
+    padding-top: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+span {
+    font-family: "Bebas Neue";
+    text-decoration-line: underline;
+}
+
+.white-box-description {
+    background-color: #fff;
+    border-radius: 50px;
+    margin: 70px 15px 0px 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+.white-box-players {
+    background-color: #fff;
+    border-radius: 50px;
+    margin: 15px;
+}
+
+.description {
+    word-spacing: 15px;
+    letter-spacing: 7px;
+    font-family: "Bebas Neue";
+    color: #484848;
+    font-size: 30px;
+}
+
+#links {
+    word-spacing: 15px;
+    letter-spacing: 7px;
+    font-family: "Bebas Neue";
+    color: #484848;
+    font-size: 30px;
+}
+
+a {
+    color: #484848;
+}
+
+#table {
+    font-family: "Bebas Neue";
+    font-size: 55px;
+    color: #fff;
+    word-spacing: 25px;
+    letter-spacing: 10px;
+}
+
+table {
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.form {
+    margin: 10px;
+    font-family: "Bebas Neue";
+    color: #484848;
+    word-spacing: 7px;
+    letter-spacing: 3px;
+    font-size: 27px;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.form-control {
+    font-family: Garamond;
+    font-size: 25px;
+}
+
+.btn-form {
+    background-color: #E5A26E; 
+    border-color: #E5A26E; 
+    font-size: 30px; 
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    color: #484848;
+}
+
+.btn-form:hover {
+    background-color: #E5A26E;
+    border-color: #E5A26E;
+}
