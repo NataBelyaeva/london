@@ -160,8 +160,15 @@ a {
 }
 
 table {
-    overflow: hidden;
-    border-radius: 20px;
+  overflow: hidden;
+  border-radius: 20px;
+  font-family: "Bebas Neue";
+  word-spacing: 5px;
+  letter-spacing: 3px;
+}
+
+td {
+  font-family: "Garamond";
 }
 
 .form {
